@@ -58,7 +58,6 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="0dp"
-                android:src="@drawable/image2"
                 android:tag="0" />
 
             <ImageView
@@ -149,7 +148,13 @@
         </LinearLayout>
 
     </LinearLayout>
-
+    <ImageView
+        android:id="@+id/imageViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:src="@drawable/tic6"
+        android:tag="10" />
     <!--game status text display-->
     <TextView
         android:id="@+id/status"
