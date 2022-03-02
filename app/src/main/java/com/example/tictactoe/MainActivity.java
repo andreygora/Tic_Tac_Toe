@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
         if (counter == 9 && flag == 0) {
             TextView status = findViewById(R.id.status);
             status.setText("Match Draw");
+            gameActive = false;
         }
     }
 
